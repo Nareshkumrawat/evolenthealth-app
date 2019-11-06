@@ -1,0 +1,400 @@
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../fonts/SFProDisplay-Bold.woff2') format('woff2'),
+      url('../fonts/SFProDisplay-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../fonts/SFProDisplay-Regular.woff2') format('woff2'),
+      url('../fonts/SFProDisplay-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../fonts/SFProDisplay-Medium.woff2') format('woff2'),
+      url('../fonts/SFProDisplay-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../fonts/SFProDisplay-Light.woff2') format('woff2'),
+      url('../fonts/SFProDisplay-Light.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SF Pro Display';
+  src: url('../fonts/SFProDisplay-Thin.woff2') format('woff2'),
+      url('../fonts/SFProDisplay-Thin.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'mahindra';
+  src:  url('../fonts/mahindra.eot?8tz74y');
+  src:  url('../fonts/mahindra.eot?8tz74y#iefix') format('embedded-opentype'),
+    url('../fonts/mahindra.ttf?8tz74y') format('truetype'),
+    url('../fonts/mahindra.woff?8tz74y') format('woff'),
+    url('../fonts/mahindra.svg?8tz74y#mahindra') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'mahindra' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Brakes:before {
+  content: "\e926";
+}
+.icon-Cubic:before {
+  content: "\e940";
+}
+.icon-engine:before {
+  content: "\e941";
+}
+.icon-Fuel-Tank-Capacity:before {
+  content: "\e942";
+}
+.icon-Gearbox .path1:before {
+  content: "\e943";
+  color: rgb(0, 0, 0);
+}
+.icon-Gearbox .path2:before {
+  content: "\e944";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Gearbox .path3:before {
+  content: "\e945";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-Max-Gross-Power:before {
+  content: "\e946";
+}
+.icon-Max-Gross-Torque:before {
+  content: "\e947";
+}
+.icon-mileage:before {
+  content: "\e948";
+}
+.icon-Seating-Capacity:before {
+  content: "\e949";
+}
+.icon-Suspension .path1:before {
+  content: "\e94a";
+  color: rgb(0, 0, 0);
+}
+.icon-Suspension .path2:before {
+  content: "\e94b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Suspension .path3:before {
+  content: "\e94c";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-Tyres .path1:before {
+  content: "\e94d";
+  color: rgb(0, 0, 0);
+}
+.icon-Tyres .path2:before {
+  content: "\e94e";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-Tyres .path3:before {
+  content: "\e94f";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.icon-Wheel-base:before {
+  content: "\e950";
+}
+.icon-01:before {
+  content: "\e900";
+}
+.icon-02:before {
+  content: "\e901";
+}
+.icon-03:before {
+  content: "\e902";
+}
+.icon-04:before {
+  content: "\e903";
+}
+.icon-05:before {
+  content: "\e904";
+}
+.icon-06:before {
+  content: "\e905";
+  color: #4ea536;
+}
+.icon-07:before {
+  content: "\e906";
+}
+.icon-08:before {
+  content: "\e907";
+}
+.icon-09:before {
+  content: "\e908";
+}
+.icon-10:before {
+  content: "\e909";
+  color: #fff;
+}
+.icon-11 .path1:before {
+  content: "\e90a";
+  color: rgb(68, 101, 183);
+}
+.icon-11 .path2:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-12:before {
+  content: "\e90c";
+}
+.icon-13:before {
+  content: "\e911";
+  color: #959698;
+}
+.icon-14:before {
+  content: "\e912";
+  color: #fff;
+}
+.icon-15:before {
+  content: "\e913";
+  color: #fff;
+}
+.icon-16:before {
+  content: "\e914";
+}
+.icon-17:before {
+  content: "\e915";
+}
+.icon-18:before {
+  content: "\e916";
+}
+.icon-19:before {
+  content: "\e917";
+}
+.icon-20:before {
+  content: "\e91c";
+}
+.icon-21:before {
+  content: "\e91d";
+}
+.icon-22:before {
+  content: "\e91e";
+}
+.icon-23:before {
+  content: "\e91f";
+}
+.icon-24 .path1:before {
+  content: "\e920";
+  color: rgb(0, 0, 0);
+}
+.icon-24 .path2:before {
+  content: "\e921";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-24 .path3:before {
+  content: "\e922";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-25:before {
+  content: "\e923";
+}
+.icon-26:before {
+  content: "\e924";
+}
+.icon-27:before {
+  content: "\e927";
+  color: #fff;
+}
+.icon-28 .path1:before {
+  content: "\e928";
+  color: rgb(236, 70, 46);
+}
+.icon-28 .path2:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-29:before {
+  content: "\e92a";
+}
+.icon-30:before {
+  content: "\e92b";
+  color: #fff;
+}
+.icon-31:before {
+  content: "\e92c";
+}
+.icon-32:before {
+  content: "\e92d";
+}
+.icon-33:before {
+  content: "\e92e";
+}
+.icon-34 .path1:before {
+  content: "\e92f";
+  color: rgb(237, 149, 4);
+}
+.icon-34 .path2:before {
+  content: "\e930";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-35:before {
+  content: "\e931";
+}
+.icon-36:before {
+  content: "\e932";
+}
+.icon-37:before {
+  content: "\e933";
+}
+.icon-38:before {
+  content: "\e934";
+  color: #e52337;
+}
+.icon-39:before {
+  content: "\e935";
+  color: #fff;
+}
+.icon-40 .path1:before {
+  content: "\e936";
+  color: rgb(46, 159, 249);
+}
+.icon-40 .path2:before {
+  content: "\e937";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-41:before {
+  content: "\e938";
+}
+.icon-42:before {
+  content: "\e939";
+}
+.icon-43:before {
+  content: "\e93a";
+}
+.icon-44:before {
+  content: "\e93b"; 
+}
+.icon-45:before {
+  content: "\e91b";
+}
+.icon-46:before {
+  content: "\e93c";
+}
+.icon-47:before {
+  content: "\e93d";
+}
+.icon-48:before {
+  content: "\e93e";
+}
+.icon-49:before {
+  content: "\e93f";
+}
+.icon-50:before {
+  content: "\e90d";
+}
+.icon-51:before {
+  content: "\e90e";
+}
+.icon-52:before {
+  content: "\e90f";
+}
+.icon-53:before {
+  content: "\e910";
+}
+.icon-54:before {
+  content: "\e918";
+}
+.icon-55:before {
+  content: "\e919";
+}
+.icon-56:before {
+  content: "\e91a";
+}
+.icon-57:before {
+  content: "\e925";
+}
+.icon-58:before {
+  content: "\e952";
+}
+.icon-59:before {
+  content: "\e953";
+}
+.icon-60:before {
+  content: "\e954";
+}
+.icon-61:before {
+  content: "\e951";
+}
+.icon-62:before {
+  content: "\e955";
+}
+.icon-63:before {
+  content: "\e956";
+}
+.icon-64:before {
+  content: "\e957";
+}
+.icon-65:before {
+  content: "\e958";
+}
+.icon-66:before {
+  content: "\e959";
+}
+.icon-67:before {
+  content: "\e95a";
+}
+.icon-68:before {
+  content: "\e95b";
+}
+.icon-69:before {
+  content: "\e95c";
+}
+.icon-70:before {
+  content: "\e95d";
+}
+.icon-71:before {
+  content: "\e95e";
+}
+.icon-72:before {
+  content: "\e95f";
+}
+.icon-73:before {
+  content: "\e960";
+}
+.icon-74:before {
+  content: "\e961";
+}

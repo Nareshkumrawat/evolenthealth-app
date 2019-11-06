@@ -1,0 +1,15 @@
+.accordion li
+{
+	display:inline-block;
+	list-style-type:none;
+}
+
+.nav-submenu
+{
+	display:inline-block;
+	list-style-type:none;
+}
+
+.change-theme-row{
+	z-index:100;
+}

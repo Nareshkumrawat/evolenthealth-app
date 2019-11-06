@@ -1,0 +1,61 @@
+/******************** Sign up Popups css ***********************/
+.signup-modal .modal-dialog{max-width:938px}
+.signup-modal .modal-dialog .modal-content .close{z-index:999;color:#000;opacity:.87}
+.signup-modal .modal-dialog .modal-content{padding:0}
+.signup-modal .modal-dialog .sign-row{margin:0}
+.signup-modal .modal-dialog .sign-row .col-sm-6{padding:0}
+.signup-modal .modal-dialog .sign-row .sign-details{padding:92px 80px;width:59%;-ms-flex:0 0 59%;flex:0 0 59%;max-width:59%}
+.signup-modal .modal-dialog .sign-row .right-img-details{width:41%;-ms-flex:0 0 41%;flex:0 0 41%;max-width:41%;background:url(../images/bitmap.jpg) center center no-repeat;position:relative;right:-1px;border-radius:0 5px 5px;background-size:cover}
+.signup-modal .modal-dialog .modal-content h3{color:#000;letter-spacing:1px;font-size:36px;font-weight:500;opacity:1;margin-bottom:36px}
+.signup-modal .modal-dialog .modal-content h3 small{font-size:22px;font-weight:500;letter-spacing:.6px;display:block;margin-bottom:5px}
+.signup-modal .modal-dialog .modal-content h3 span{opacity:.54;font-size:16px;font-weight:normal;letter-spacing:normal;color:#000;display:block;margin-top:10px}
+.signup-modal .modal-dialog .modal-content .form-group{padding:0;margin:0 0 20px}
+.signup-modal .modal-dialog .modal-content .form-group .form-control{height:48px;border-radius:5px;background-color:#fff;padding:0 15px;width:100%;border:solid 1px #ccc;font-size:16px;font-weight:normal;letter-spacing:.4px;color:rgba(0,0,0,0.87);margin:0}
+.signup-modal .modal-dialog .modal-content .form-group.icon-left{position:relative}
+.signup-modal .modal-dialog .modal-content .form-group.icon-left i{font-size:24px;position:absolute;width:45px;line-height:48px;text-align:center;color:rgba(0,0,0,0.54);top:0;left:0}
+.signup-modal .modal-dialog .modal-content .form-group.icon-left input{padding-left:45px}
+.signup-modal .modal-dialog .modal-content .sign-details .btn{max-width:100%}
+.signup-modal .modal-dialog .msg-info{padding:0;margin:0;text-align:center;opacity:.54;font-size:14px;font-weight:normal;letter-spacing:normal;color:#000;display:inline-block;width:100%}
+input:-webkit-autofill,input:-webkit-autofill:hover,input:-webkit-autofill:focus,textarea:-webkit-autofill,textarea:-webkit-autofill:hover,textarea:-webkit-autofill:focus,select:-webkit-autofill,select:-webkit-autofill:hover,select:-webkit-autofill:focus{-webkit-animation-name:autofill;-webkit-animation-fill-mode:both}
+.signup-modal .modal-dialog .modal-content .otp-group{text-align:center;margin-top:5px;margin-bottom:25px;display:inline-block;width:100%}
+.otp-group label{opacity:.87;font-size:18px;font-weight:normal;text-align:center;color:#000;margin-bottom:20px;display:block}
+.modal-dialog .modal-content .resend-code{font-size:14px;font-weight:normal;letter-spacing:normal;text-align:center;color:#757575;opacity:1}
+.modal-dialog .modal-content .resend-code a{color:#e52337;outline:0}
+.otp{display:inline-block;margin:0 auto 25px;width:100%;text-align:center}
+.otp input{border:0;display:inline-block;float:none;width:35px;text-align:center;padding:0;height:45px;margin-right:15px;border-bottom:1px solid rgba(0,0,0,0.2);text-align:center;background:#fff url(../images/bgotp.png) center center no-repeat;font-size:36px;font-weight:500;font-style:normal;color:#e52337}
+.otp input:after{content:"";display:block}
+.otp input:last-child{margin-right:0}
+.otp input:focus,
+.otp input.input-has-value{background:#fff}
+.skip-row{display:block;text-align:center;margin-top:15px}
+.skip-row a{font-size:16px;font-weight:500;font-style:normal;letter-spacing:.6px;text-align:center;color:#e52337}
+/*thank you*/
+.thank-you-modal{text-align:center}
+.thank-you-modal .check-tick{width:95px;height:95px;text-align:center;background:#f2f5f7;margin:5px auto 35px;border-radius:50%;font-size:36px;color:#5aad00}
+.thank-you-modal .check-tick i{line-height:95px;}
+.thank-you-modal .modal-dialog .sign-row .sign-details{padding:92px 25px;}
+.thank-you-modal .modal-dialog .modal-content h3{margin:0}
+.thank-you-modal .modal-dialog .modal-content h3 span{font-size:18px;margin-top:19px;} 
+@media(max-width:991px){
+.signup-modal .modal-dialog{max-width:700px;}
+.signup-modal .modal-dialog .sign-row .sign-details{padding:30px;}
+.signup-modal .modal-dialog .modal-content h3{font-size:26px;margin-bottom: 20px;}
+.signup-modal .modal-dialog .modal-content h3 span{font-size:14px;}
+.otp{margin-bottom:20px;}
+}
+@media(max-width:767px){
+.signup-modal .modal-dialog{max-width:320px}
+.signup-modal .modal-dialog .sign-row .right-img-details{display:none}
+.signup-modal .modal-dialog .sign-row .sign-details{padding:20px 20px;width:100%;-ms-flex:0 0 100%;flex:0 0 100%;max-width:100%}
+.signup-modal .modal-dialog .modal-content h3{font-size:20px;margin-bottom:20px}
+.signup-modal .modal-dialog .modal-content h3 small{font-size:15px}
+.signup-modal .modal-dialog .modal-content h3 span{font-size:13px}
+.otp-group label{font-size:15px;margin-bottom:15px}
+.signup-modal .modal-dialog .modal-content .form-group{margin-bottom:15px}
+.signup-modal .modal-dialog .modal-content .form-group .form-control{font-size:14px}
+.signup-modal .modal-dialog .modal-content .otp-group{margin-bottom:15px}
+.otp{margin-bottom:15px}
+.modal-dialog .modal-content .resend-code{font-size:13px}
+.thank-you-modal .check-tick{margin-bottom:25px}
+.thank-you-modal .modal-dialog .modal-content h3 span{font-size:15px}
+}
